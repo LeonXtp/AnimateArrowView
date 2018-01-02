@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <declare-styleable name="AnimateArrowView" tools:ignore="ResourceName">
+
+        <!-- wrap_content 时，设置宽高比例-->
+        <attr name="arrowHeightRatio" format="float" />
+        <!-- 总的动画时间，如果设置了，下面三个都默认设定为总时间的1/3 -->
+        <attr name="arrowAnimDuration" format="integer" />
+        <!-- 从底部渐入时的时间 -->
+        <attr name="arrowAlphaInDuration" format="integer" />
+        <!-- 渐入到完全不透明之后保持的时间 -->
+        <attr name="arrowAlphaHoldOnDuration" format="integer" />
+        <!-- 渐出的时间 -->
+        <attr name="arrowAlphaOutDuration" format="integer" />
+    </declare-styleable>
+
+</resources>
