@@ -239,7 +239,7 @@ public class AnimateArrowView extends View {
             @Override
             public void onAnimationUpdate(ValueAnimator animation) {
                 mArrowTopMargin = (int) animation.getAnimatedValue();
-                Log.e(TAG, "onAnimationUpdate:" + mArrowTopMargin);
+//                Log.e(TAG, "onAnimationUpdate:" + mArrowTopMargin);
             }
         });
 
